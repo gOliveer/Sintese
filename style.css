@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+body {
+    font-family: 'Noto Sans', 'sans-serif';
+    background-color: #520107;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: #C42127;
+}
+
+header > h1 {
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+header > h4 {
+    margin-right: 20px;
+    color: white;
+}
+
+header > h4:hover {
+    cursor: pointer;
+}
+
+#logo img {
+   max-height: 300px;
+   margin-top: 20px;
+   margin-left: 20px;
+}
+
+#inicio {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+#inicio > h2 {
+    margin-top: 100px;
+    margin-left: 25px;
+}
+
+article > h2 {
+    color: white;
+    background-color: #C42127;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    padding-top: 5px;
+    padding-bottom: 9px;
+    text-align: center;
+}
+
+#sabores {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.texto_sabores {
+    color: white;
+    background-color: #C42127;
+}
+
+.pizzas img {
+    max-height: 200px;
+    max-width: 200px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #3E3D42;
+    color: white;
+}
+
+.logos_contato img {
+    max-height: 25px;
+    margin-top: 25px;
+}
+
+.logos_contato button {
+    background-color: #C42127;
+    padding: 10px;
+    border-radius: 12px;
+    color: white;
+    margin-top: 10px;
+}
+
+.logos_contato button:hover {
+    cursor: pointer;
+}
+
+@media (max-width: 870px){
+    #inicio {
+        flex-direction: column;
+    }
+}
